@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <p>© 2026 KikoShop - Tous droits réservés</p>
+      <p>© 2026 KikoMilano - Tous droits réservés</p>
     </footer>
   )
 }
