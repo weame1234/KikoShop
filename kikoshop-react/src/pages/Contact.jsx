@@ -1,17 +1,13 @@
 function Contact() {
   return (
-    <div className="contact-page">
-      <h2>Contactez KikoMilano</h2>
-      <p>Email: contact@kikoshop.com</p>
-      <p>Téléphone: +212 600000000</p>
+    <section className="contact">
+      <h2>Contactez-nous</h2>
       <form>
-        <input type="text" placeholder="Nom" />
-        <input type="email" placeholder="Email" />
-        <textarea placeholder="Message"></textarea>
+        <input type="text" placeholder="Votre nom" required />
+        <input type="email" placeholder="Votre email" required />
+        <textarea placeholder="Votre message" rows="5" required></textarea>
         <button type="submit">Envoyer</button>
       </form>
-    </div>
-  )
+    </section>
+  );
 }
-
-export default Contact

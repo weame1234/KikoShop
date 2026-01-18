@@ -4,8 +4,8 @@ function Navbar() {
       <h1>KikoMilano</h1>
       <nav>
         <a href="#">Accueil</a>
-        <a href="#">Produits</a>
-        <a href="#">Contact</a>
+        <a href="%">Produits</a>
+        <a href="Contacts.jsx">Contact</a>
       </nav>
     </header>
   )

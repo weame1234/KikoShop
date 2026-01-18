@@ -26,9 +26,7 @@ function ProductsHome() {
           </Link>
         ))}
       </div>
-      <Link to="/produits" className="see-all-btn">
-        Voir tous les produits
-      </Link>
+    
     </section>
   );
 }
